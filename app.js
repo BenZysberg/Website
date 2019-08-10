@@ -8,16 +8,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-/*app.use( function( req, res, next ) {
-    var template = req.path.split('/').pop();
-    if( template=='' || (template.indexOf( "." ) >=0) ) {
-        console.log( req.path );
-        next();
-    }
-    else {
-        res.render( template, { title : template } );
-    }
-});*/
 app.use( 
     express.static('.')
 );
