@@ -35,7 +35,7 @@ class CrateScene extends Phaser.Scene {
     preload(){
 
         // loading crate image
-        this.load.image("crate", "assets/Camel.jpg");
+        this.load.image("crate", "assets/camel.jpg");
 		this.load.spritesheet('dudeCrate', 'assets/dude.png', {
 			frameWidth: 36,
 			frameHeight: 48
